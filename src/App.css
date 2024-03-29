@@ -8,12 +8,14 @@
 } 
 
 .charts-wrapper{
- width: 95%;
- justify-content: space-between;
+ width: 92%;
+ justify-content: space-evenly;
  border-radius: 0.5rem;
- height: auto;
  padding: 2rem;
  box-shadow: var(--shadow);
  margin: 2rem;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}

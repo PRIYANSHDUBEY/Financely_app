@@ -43,15 +43,18 @@ function ChartComponent({sortedTransactions}) {
 
 
       const config = {
-        width:500 ,
+        height:450,
+        width:500,
         data:data ,
         autoFit: true,
         xField: 'date',
         yField: 'amount',
+
       };
+
       const spendingConfig = {
-        
-        width:500 ,
+        height:450,
+        width:400 ,
         data: spendingData,       
         angleField : "amount",
         colorField : "tag",
